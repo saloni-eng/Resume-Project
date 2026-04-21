@@ -1,0 +1,64 @@
+body {
+    background-color: #f4f4f9;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 40px 0;
+}
+
+h1, h2, h3 {
+    font-family: 'serif';
+    color: #5b186d;
+}
+
+.resume-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.contact-bar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.skills-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.skill-item {
+    background: #dfc5e9;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.skill-item:hover {
+    background-color: #8939ab;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.entry {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #5b186d;
+    font-weight: bold;
+}
